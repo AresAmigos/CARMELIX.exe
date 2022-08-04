@@ -10,4 +10,4 @@ set /A b=1
 	goto g
 :f
 if exist "%userprofile%\desktop\last.txt" del "%userprofile%\desktop\last.txt"
-echo You don't have many time >> "%userprofile%\desktop\last.txt
+echo You don't have many time >> "%userprofile%\desktop\last.txt"
